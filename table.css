@@ -1,0 +1,25 @@
+* {font-family: Helvetica Neue, Arial, sans-serif; }
+
+/* body { background-image: url("https://cdn.pixabay.com/photo/2018/02/20/10/28/business-3167295__340.jpg");
+    background-size: 100%;
+    } */
+
+h1, table { text-align: center; }
+
+table {border-collapse: collapse;  width: 70%; margin: 0 auto 5rem;}
+
+th, td { padding: 1.5rem; font-size: 1.3rem; }
+
+/* tr {background: hsl(180, 5%, 76%); } */
+
+tr, td { transition: .4s ease-in; } 
+
+/* tr:first-child {background: hsla(193, 16%, 83%, 0.856); }
+
+tr:nth-child(even) { background: hsla(240, 6%, 79%, 0.7); }
+
+td:empty {background: hsla(240, 17%, 88%, 0.89); }
+
+tr:hover:not(#firstrow), tr:hover td:empty {background: rgb(219, 230, 230); pointer-events: visible;}
+tr:hover:not(#firstrow) { transform: scale(1.2); font-weight: 700; box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);}
+ */
