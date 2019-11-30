@@ -2,10 +2,10 @@
 window.onload = function () {
 	var chart = new CanvasJS.Chart("chartContainer1", {
 		title: {
-			text: 'Business Analytics (Yearly)'
+			text: 'Cost (Vs) Revenue'
 		},
 		axisY: {
-			title: "Revenue",
+			// title: "srfghd",
 			lineColor: "#7F6084",
 			tickColor: "#7F6084",
 			labelFontColor: "#7F6084",
@@ -21,7 +21,7 @@ window.onload = function () {
 		},
 		data: [{
 			type: "line",
-			name: "Total income",
+			name: "Cost",
 			color: "#369EAD",
 			showInLegend: true,
 			axisYIndex: 1,
@@ -40,7 +40,7 @@ window.onload = function () {
 		},
 		{
 			type: "line",
-			name: "Estimated Income",
+			name: "Revenue",
 			color: "#7F6084",
 			axisYType: "secondary",
 			showInLegend: true,
